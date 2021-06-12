@@ -31,7 +31,7 @@ tBodyAccJerkMag
 tBodyGyroMag
 tBodyGyroJerkMag
 fBodyAcc-XYZ
-fBodyAccJerk-XYZ
+fBodyAccJerk-XYz
 fBodyGyro-XYZ
 fBodyAccMag
 fBodyAccJerkMag
