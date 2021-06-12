@@ -17,8 +17,9 @@ activityrecognition '@' smartlab.ws
 1. **Activity Labels** = WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 2. **Features Information**
-These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+**These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.**
 
 tBodyAcc-XYZ
 
@@ -55,7 +56,8 @@ fBodyGyroMag
 fBodyGyroJerkMag
 
 
-The set of variables that were estimated from these signals are: 
+
+**The set of variables that were estimated from these signals are: **
 
 mean(): Mean value
 
