@@ -95,7 +95,9 @@ angle(): Angle between to vectors.
 
 
 3. **Subject Information**
+
    3.1 Subject Train = {1,...,30}
+   
    3.2 Subject Test = {1,...,30}
 
 
