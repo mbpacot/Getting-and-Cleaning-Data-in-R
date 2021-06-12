@@ -1,5 +1,5 @@
 ## Defining the file location address and needed libraries
-setwd("E:/Coursera Extended File/_Getting and Cleaning Data Course/UCI HAR Dataset")
+setwd("UCI HAR Dataset")
 global_address <- getwd()
 library(reshape2)
 
