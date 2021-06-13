@@ -49,7 +49,4 @@ Merge_Datasets$Activity <- factor(Merge_Datasets$Activity, levels = Activity_Lab
 ## Preparing data to store a tidy data using "melt" built-in function in R
 Merge_Datasets.Melt <- reshape2::melt(Merge_Datasets, id = c("Subject", "Activity"))
 Merge_Datasets.Mean <- reshape2::dcast(Merge_Datasets.Melt, Subject + Activity ~ variable, mean)
-Final_Data <- Merge_Datasets.Mean[order(Merge_Datasets.Mean$Activity), ]
-write.table(Final_Data, "Tidy.txt", row.names = FALSE, quote = FALSE)
-
-                                      
+write.table(Merge_Datasets.Mean, "Tidy.txt", row.names = FALSE, quote = FALSE)                                     
